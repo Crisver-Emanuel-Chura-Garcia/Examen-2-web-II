@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header con logo -->
+    <header class="section-header">
+        <img src="IMAGE_LOCAL/Logo.png" alt="Logo" class="logo">
+        <h1>LOGO</h1>
+    </header>
+
+    <!-- Menú con pestañas -->
+    <nav class="section-menu">
+        <ul class="menu-tabs">
+            <li><a href="#tab1">Tab 1</a></li>
+            <li><a href="#tab2">Tab 2</a></li>
+            <li><a href="#tab3">Tab 3</a></li>
+            <li><a href="#tab4">Tab 4</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider de imagen -->
+    <section class="section-slider">
+        <img src="IMAGE_LOCAL/Slider.png" alt="Imagen del Slider" class="slider-img">
+    </section>
+
+    <!-- Contenedor 1 con sectab1 y sectab2 -->
+    <div class="container1">
+        <!-- Sectab1 con imagen -->
+        <div class="sectab1">
+            <img src="IMAGE_LOCAL/imagen_Zelda.jpg" alt="Imagen en Sectab1" class="sectab1-img">
+            <p>Este es una imagen del actual y nuevo juego de The Legend of Zelda: Echoes of Wisdom</p>
+        </div>
+
+        <!-- Sectab2 con contenido -->
+        <div class="sectab2">
+            <div class="sectab2-content">
+                <div class="h3-container">
+                    <h3>Título</h3>
+                </div>
+                <div class="h2-container">
+                    <h2>Subtítulo</h2>
+                </div>
+                <div class="h1-container">
+                    <h1>Encabezado</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor 2 con sectab3 y sectab4 -->
+    <div class="container2">
+        <!-- Sectab3 con tabla -->
+        <div class="sectab3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>País</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan</td>
+                        <td>25</td>
+                        <td>Bolivia</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>30</td>
+                        <td>Chile</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td>22</td>
+                        <td>Perú</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Sectab4 con formulario y elementos extra -->
+        <div class="sectab4">
+            <div class="sectab4-content">
+                <div class="h2-container">
+                    <h2>Formulario</h2>
+                    <form action="/submit" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"><br><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+
+                <!-- Elementos adicionales -->
+                <div class="extra-element-1">
+                    <h2>Elemento adicional 1</h2>
+                    <p>Descripción o contenido para el elemento adicional 1.</p>
+                </div>
+                <div class="extra-element-2">
+                    <h2>Elemento adicional 2</h2>
+                    <p>Descripción o contenido para el elemento adicional 2.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="card">
+            <p>Tarjeta 1</p>
+        </div>
+        <div class="card">
+            <p>Tarjeta 2</p>
+        </div>
+        <div class="card">
+            <p>Tarjeta 3</p>
+        </div>
+        <div class="card">
+            <p>Tarjeta 4</p>
+        </div>
+    </footer>
+</body>
+
+</html>
